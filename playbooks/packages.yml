@@ -1,0 +1,13 @@
+---
+- name: Install Packages
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Install vim, wget, curl, tree
+      yum:
+        name:
+          - vim
+          - wget
+          - curl
+          - tree
+        state: latest
