@@ -1,5 +1,5 @@
 ---
-- name: Copy file
+- name: Copy a file
   hosts: localhost
   tasks: 
     - name: Copy /etc/passwd to /tmp/copy_passwd
