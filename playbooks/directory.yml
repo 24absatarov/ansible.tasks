@@ -1,4 +1,6 @@
 ---
 - name: Create Directory
   hosts: localhost
-  
+  gather_facts: yes
+  tasks:
+    - name: 
